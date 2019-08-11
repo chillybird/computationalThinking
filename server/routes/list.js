@@ -6,7 +6,7 @@ var userProblemInfos = require('../models/userProbleminfos');
 
 
 // 连接mongodb数据库
-mongoose.connect("mongodb://zh:zhtesture@39.108.129.163:27017/music");
+mongoose.connect("mongodb://[数据库用户名]:[数据库密码][数据库ip地址]/[数据库名称]");
 
 // 监听服务器状态
 mongoose.connection.on("connected",function(){
