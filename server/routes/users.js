@@ -3,7 +3,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var UserInfos = require('../models/userInfos')
 
-mongoose.connect("mongodb://zh:zhtesture@39.108.129.163:27017/music");
+mongoose.connect("mongodb://[数据库用户名]:[数据库密码][数据库ip地址]/[数据库名称]");
 
 
 router.get('/', function(req, res, next) {res.send('this is user!');})
