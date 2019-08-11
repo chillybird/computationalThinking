@@ -1,0 +1,46 @@
+.header{
+    height: 60px;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.header .head_item{
+    height: 60px;
+    width: 100px;
+    line-height: 60px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    
+}
+.header .head_item a{
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 14px;
+    align-self: center;
+}
+
+#logMsg{
+    color: gray;
+    display: inline-block;
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 14px;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.active{
+    background-color: #9dc184;
+}
+.active a{
+    color: #fff !important;
+}

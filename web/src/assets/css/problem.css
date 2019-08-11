@@ -1,0 +1,23 @@
+.list{
+    display: inline-block;
+    list-style: none;
+}
+
+.list .itemIn{
+    width: 200px;
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.list .itemIn a{
+    text-decoration: none;
+    color: gray;
+}
+.list .itemIn a:hover{
+    color: #9dc184;
+    font-weight: bold;
+}
